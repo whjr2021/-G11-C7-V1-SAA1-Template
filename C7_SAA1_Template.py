@@ -76,8 +76,8 @@ while carryOn:
         pygame.draw.rect(screen,ORANGE,i)
         
     # Draw yellow bricks on screen
-    for i in        :
-        pygame.draw.rect(screen,YELLOW,i)
+
+
         
     # Code for red brick and ball collision here
     for i in bricksR:
@@ -102,15 +102,15 @@ while carryOn:
             score += 3
             
     # Code for yellow brick and ball collision here
-    for i in bricksY:
-        # Remove orange brick using "collidepont()" function
-        if i.collidepoint(ball.x,ball.y):
-            bricksY.
+
+        # Remove yellow brick using "collidepont()" function
+
+
             # Reverse ball direction upon collision
-            ballx = 
-            bally = 
+
+
             # Increase player score by 3
-            score 
+
                         
     pygame.time.wait(8)
     pygame.display.flip()       
